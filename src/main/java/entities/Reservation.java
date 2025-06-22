@@ -17,4 +17,10 @@ public class Reservation {
 
     @ManyToOne
     private Event event;
+
+    public void setUser(User user) {
+    }
+
+    public Thread getUser() {
+    }
 }

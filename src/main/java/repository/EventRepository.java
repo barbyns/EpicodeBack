@@ -9,4 +9,6 @@ import java.util.List;
 public interface EventRepository extends JpaRepository<Event, Long> {
     List<Event> findByCreator(SecurityProperties.User creator);
     List<Event> findByAvailableSeatsGreaterThan(int seats);
+
+    List<Event> findByOrganizer(SecurityProperties.User organizer);
 }
