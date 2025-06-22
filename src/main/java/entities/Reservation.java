@@ -22,5 +22,6 @@ public class Reservation {
     }
 
     public Thread getUser() {
+        return null;
     }
 }
